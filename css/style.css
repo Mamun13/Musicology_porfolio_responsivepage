@@ -34,6 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    width: 100%;
+    
 }   
 /*header part ends*/
 
@@ -78,11 +80,25 @@ header #navigation nav a:hover{
  /*header part ends*/
    
 /*banner part starts*/
-#banner {
+#particles-js{
+    position: relative;
+    z-index: 2;
+}
+canvas.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:1;
+    width: 100%;
+    height: 100%;
+}
+.banner {
     background: url(../images/banner.png)no-repeat center;
     background-size: cover;
+    background-position: center;
+    /* height: 150vh; */
 }
-#banner .container h1{
+.banner .container h1{
     font-size: 70px;
     color: #fff;
     padding-bottom: 25px;
@@ -90,14 +106,14 @@ header #navigation nav a:hover{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-#banner .container p{
+.banner .container p{
     font-size: 15px;
     color: #fff;
     font-family: montserrat_bold;
     font-weight: 300;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
 }
-#banner .container button{
+.banner .container button{
     font-size: 20px;
     color: #fff;
     font-family: 'Oswald', sans-serif;
@@ -107,10 +123,34 @@ header #navigation nav a:hover{
     padding: 25px 50px;
     margin-bottom: 100px;
 }
+
 /*banner part ends*/
 
-
-
+/*dance_tour part starts*/
+#dance_tour{
+    background: url(../images/backgorund2.png)no-repeat center;
+    background-size: cover;
+}
+#dance_tour .container h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#dance_tour .container p{
+    font-size: 15px;
+    color: #fff;
+    font-family: montserrat_bold;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+#dance_tour .container img{
+    box-sizing: border-box;
+}
+/*dance_tour part ends*/
 
 
 
