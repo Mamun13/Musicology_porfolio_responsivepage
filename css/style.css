@@ -284,9 +284,9 @@ canvas.particles-js-canvas-el {
     font-weight: 600;
     color: #fff;
     margin-left: 40px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
-/* #amazing .container .text2 h1{
+#amazing .container .text2 h1{
     font-size: 40px;
     font-weight: 600;
     color: #fff;
@@ -315,8 +315,8 @@ canvas.particles-js-canvas-el {
     font-weight: 600;
     color: #fff;
     margin-left: 40px;
-    text-transform: capitalize;
-} */
+    text-transform: uppercase;
+}
 /*amazing part ends*/
 
 
