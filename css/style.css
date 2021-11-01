@@ -235,7 +235,6 @@ canvas.particles-js-canvas-el {
     font-weight: 600;
     color: #fff;
 }
-
 /*pricing part ends*/
 
 /*amazing part starts*/
@@ -319,9 +318,47 @@ canvas.particles-js-canvas-el {
 }
 /*amazing part ends*/
 
+/*statistics part starts*/
+#statistics{
+    background: #2c2c2c;
+}
+#statistics h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#statistics p{
+    font-size: 15px;
+    color: #fff;
+    font-family: montserrat_bold;
+    font-weight: 300;
+    padding-bottom: 70px;
+}
+#statistics .counting{
+    margin-bottom: 80px;
+}
+#statistics .counting .count{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+#statistics .counting span{
+    font-size: 30px;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
 
 
-
+/*statistics part ends*/
 
 
 
