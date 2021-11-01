@@ -182,7 +182,7 @@ canvas.particles-js-canvas-el {
     background: url(../images/back3.png)no-repeat center;
     background-size: cover;
 }
- h1{
+#pricing .container h1{
     font-size: 40px;
     font-weight: 600;
     color: #fff;
@@ -223,6 +223,7 @@ canvas.particles-js-canvas-el {
 #pricing .container .pricing_basic p{
     color: #fff;
     padding-bottom: 15px;
+    font-family: montserrat_bold;
 }
 #pricing .container .pricing_basic button{
     border: none;
@@ -237,9 +238,86 @@ canvas.particles-js-canvas-el {
 
 /*pricing part ends*/
 
-
-
-
+/*amazing part starts*/
+#amazing .container .img img{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-left: 15px;
+}
+#amazing .container .image img{
+    margin-left: -15px;
+    max-width: 100%;
+}   
+#amazing .container .text h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+    padding-top: 320px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+#amazing {
+    background: #FF6309;
+}
+#amazing .container .text{
+    /* background: url(../images/about_back1.png); */
+    margin-left: 0px;
+}
+#amazing .container .text p{
+    padding-top: 10px;
+    padding-bottom: 50px; 
+    font-family: montserrat_bold;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 40px;
+}
+#amazing .container .text button{
+    border: none;
+    background: #303030;
+    padding: 12px 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+/* #amazing .container .text2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+    padding-top: 320px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+#amazing .container .text2 p{
+    padding-top: 10px;
+    padding-bottom: 50px; 
+    font-family: montserrat_bold;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 40px;
+}
+#amazing .container .text2 button{
+    border: none;
+    background: #303030;
+    padding: 12px 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 40px;
+    text-transform: capitalize;
+} */
+/*amazing part ends*/
 
 
 
