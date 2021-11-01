@@ -177,6 +177,70 @@ canvas.particles-js-canvas-el {
 }
 /*dance_tour part ends*/
 
+/*pricing part starts*/
+#pricing{
+    background: url(../images/back3.png)no-repeat center;
+    background-size: cover;
+}
+ h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#pricing .container p{
+    font-size: 15px;
+    color: #fff;
+    font-family: montserrat_bold;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+#pricing .container .pricing_basic{
+    background: #FF6309;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#pricing .container .pricing_basic a{
+    color: #fff;
+    font-size: 80px;
+}
+.svg-inline--fa.fa-w-12 {
+    margin-top: 60px;
+}
+#pricing .container .pricing_basic h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#pricing .container .pricing_basic p{
+    color: #fff;
+    padding-bottom: 15px;
+}
+#pricing .container .pricing_basic button{
+    border: none;
+    background: #303030;
+    padding: 12px 80px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/*pricing part ends*/
+
+
+
+
+
 
 
 
