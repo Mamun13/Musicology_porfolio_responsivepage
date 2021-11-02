@@ -357,8 +357,6 @@ canvas.particles-js-canvas-el {
     margin-bottom: 70px;
 }
 /*statistics part ends*/
-
-/*statistics part starts*/
 #comment{
     background: url(../images/back4.png)no-repeat center;
     background-size: cover;
@@ -382,8 +380,45 @@ canvas.particles-js-canvas-el {
 }
 /*statistics part ends*/
 
-
-
+/*subscribe part ends*/
+#subscribe{
+    background: url(../images/backgorund.png)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#subscribe .container h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#subscribe .container p{
+    padding-bottom: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-family: montserrat_bold;
+    font-weight: 300;
+}
+#subscribe .container form input{
+    padding: 26px 19px;
+}
+#subscribe .container button{
+    background:  #2c2c2c;
+    border: none;
+    padding: 12px 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+button {
+    margin-left: -33px;
+}
+/*subscribe part ends*/
 
 
 
