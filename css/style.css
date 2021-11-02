@@ -420,7 +420,75 @@ button {
 }
 /*subscribe part ends*/
 
-
-
+/*footer part ends*/
+#footer{
+    background-color: #2c2c2c;
+}
+#footer .footer1{
+    margin-bottom: 80px;
+}
+#footer .container .footer1 h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#footer .container .footer1 p{
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 300;
+}
+#footer .container .footer1 a i{
+    margin-bottom: 30px;
+}
+#footer .container .footer1 a{
+    border: 1px solid #fff;
+    color: #2c2c2c;
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+    background: #fff;
+    transition: all linear 0.3s;
+}
+#footer .container .footer1 a:hover{
+    /* border: 1px solid #FF6309; */
+    color: #FF6309;
+}
+#footer .container .footer1 .icon{
+    padding: 10px 15px;
+}
+#footer .container .footer2{
+    max-width: 100%;
+}
+#footer .container .footer2 h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+#footer .container .footer2 a{
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 300;
+}
+#footer .container .footer2 p a{
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+/*footer part ends*/
 
 
