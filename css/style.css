@@ -95,7 +95,7 @@ canvas.particles-js-canvas-el {
 .banner {
     background: url(../images/banner.png)no-repeat center;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
     /* height: 150vh; */
 }
 .banner .container h1{
@@ -360,6 +360,7 @@ canvas.particles-js-canvas-el {
 #comment{
     background: url(../images/back4.png)no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #comment .container p{
     padding-top: 340px;
@@ -384,7 +385,7 @@ canvas.particles-js-canvas-el {
 #subscribe{
     background: url(../images/backgorund.png)no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 #subscribe .container h1{
     font-size: 50px;
